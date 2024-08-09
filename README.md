@@ -69,3 +69,4 @@ A fact is nothing but a system property that would gathered by ansible during ev
 
     ansible -i inv frontend  -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ansible.builtin.gather_facts
 Ansible is very rich with collections.
+Test
