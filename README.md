@@ -69,4 +69,13 @@ A fact is nothing but a system property that would gathered by ansible during ev
 
     ansible -i inv frontend  -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ansible.builtin.gather_facts
 Ansible is very rich with collections.
-Test
+
+GITBASH:
+List of actions:
+1.create a github account
+2.Install gitbash on you computer
+3.create a repo name ansible
+4.Open your gitBash, create a folder batch58
+5.cd batch58.
+6.git clone
+7.changes then git add,git push
