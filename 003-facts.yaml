@@ -1,0 +1,5 @@
+- name: Demo on facts
+  hosts:  all
+  tasks:
+    -name: Pritning a fact
+      msg: "CPU Architecture is {{ansible_architecture}}"
